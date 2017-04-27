@@ -56,7 +56,9 @@ input:active {
 }
 
 #activity {
-  height: 125px;
+  height: 50px;
   border: 1px solid black;
   background-color: lightblue;
+  font-size: 20pt;
+
 }

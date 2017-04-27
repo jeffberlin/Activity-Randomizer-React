@@ -8,6 +8,7 @@ class App extends Component {
 
     var random = activitiesArray[Math.floor(Math.random() * activitiesArray.length)]
 
+    document.getElementById("activity").innerHTML = random;
     console.log(random);
   }
   

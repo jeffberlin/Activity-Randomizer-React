@@ -1,20 +1,62 @@
-.App {
-  text-align: center;
+*, body, html {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  align-self: center;
+  text-align: center;
+}
+
+.App {
+  display: inline-block;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  color: #696972;
+  border-bottom: 1px solid black;
+  font-size: 20pt;
+  letter-spacing: 1px;
 }
 
 .App-intro {
-  font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+h3 {
+  font-size: 18pt;
+  letter-spacing: .5px;
+}
+
+.App-body {
+  display: inline-flex;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: .5px;
+}
+
+.App-button {
+  margin-left: 12px;
+}
+
+input {
+  letter-spacing: .7px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-left: 3px;
+  background-color: #DCDCDC;
+  border-radius: 3px;
+  width: 90px;
+  height: 30px;
+  font-size: 13pt;
+}
+
+input:active {
+  box-shadow: 0 .75px #808080;
+  transform: translateY(1px);
+}
+
+.activity {
+  height: 125px;
+  border: 1px solid black;
+  background-color: lightblue;
 }

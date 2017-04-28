@@ -29,7 +29,10 @@ class App extends Component {
           <input className="App-button" type="button" value="Activity" onClick={this.randomActivity}></input>
         </div>
 
-        <div id="activity"></div>
+
+        <div className="activityArea">
+          <h5 id="activity"></h5>
+        </div>
 
       </div>
     );

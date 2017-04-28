@@ -99,7 +99,7 @@ export default [
 	'Picnic',
 	'Corn Hole',
 	'Sun tanning',
-	'Beach',
+	'Sit on the Beach',
 	'Bird watching',
 	'Disc Golf',
 	'Ultimate Frisbee',

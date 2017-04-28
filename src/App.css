@@ -55,10 +55,13 @@ input:active {
   transform: translateY(1px);
 }
 
-#activity {
-  height: 50px;
+.activityArea {
   border: 1px solid black;
   background-color: lightblue;
-  font-size: 20pt;
+  width: 420px;
+}
 
+#activity {
+  font-size: 24pt;
+  letter-spacing: 1px;
 }

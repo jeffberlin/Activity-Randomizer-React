@@ -1,18 +1,14 @@
 *, body, html {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-  align-self: center;
   text-align: center;
 }
 
-.App {
-  display: inline-block;
-}
-
-.App-header {
+#header {
   color: #696972;
   border-bottom: 1px solid black;
   font-size: 20pt;
   letter-spacing: 1px;
+  padding-top: 10px;
 }
 
 h3 {
@@ -20,18 +16,18 @@ h3 {
   letter-spacing: .5px;
 }
 
-.App-body {
-  display: inline-flex;
-  padding-bottom: 10px;
+#clickIt {
+  padding-bottom: 20px;
 }
 
-p {
-  font-size: 18px;
-  letter-spacing: .5px;
+span {
+  font-size: 14pt;
 }
 
 .App-button {
   margin-left: 12px;
+  align-self: center;
+  border-radius: 3px;
 }
 
 input {
@@ -41,7 +37,6 @@ input {
   border: none;
   margin-left: 3px;
   background-color: #DCDCDC;
-  border-radius: 3px;
   width: 90px;
   height: 30px;
   font-size: 13pt;
@@ -52,19 +47,16 @@ input:active {
   transform: translateY(1px);
 }
 
-.activityArea {
-  border: 1px solid black;
-  background-color: lightblue;
+#result {
+  background-color: #d7ecfa;
   margin-bottom: 20px;
-  width: 60%;
+  position: relative;
 }
 
 #activity {
   font-size: 24pt;
   letter-spacing: 1px;
-}
-
-.App-images {
+  padding: 10px;
 }
 
 img {

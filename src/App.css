@@ -15,9 +15,6 @@
   letter-spacing: 1px;
 }
 
-.App-intro {
-}
-
 h3 {
   font-size: 18pt;
   letter-spacing: .5px;
@@ -58,10 +55,18 @@ input:active {
 .activityArea {
   border: 1px solid black;
   background-color: lightblue;
-  width: 420px;
+  margin-bottom: 20px;
+  width: 60%;
 }
 
 #activity {
   font-size: 24pt;
   letter-spacing: 1px;
+}
+
+.App-images {
+}
+
+img {
+  height: 200px;
 }

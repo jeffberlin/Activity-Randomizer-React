@@ -34,6 +34,13 @@ class App extends Component {
           <h5 id="activity"></h5>
         </div>
 
+        <div className="App-images">
+          <img src={require('./images/hike.jpg')} alt="hiking"/>
+          <img src={require('./images/bball.jpeg')} alt="basketball"/>
+          <img src={require('./images/concert.jpg')} alt="concert"/>
+          <img src={require('./images/drag.jpg')} alt="drag strip"/>
+        </div>
+
       </div>
     );
   }

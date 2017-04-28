@@ -16,8 +16,13 @@ h3 {
   letter-spacing: .5px;
 }
 
+#callout {
+  padding-top: 15px;
+}
+
 #clickIt {
-  padding-bottom: 20px;
+  padding-bottom: 25px;
+  padding-top: 10px;
 }
 
 span {
@@ -49,7 +54,7 @@ input:active {
 
 #result {
   background-color: #d7ecfa;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   position: relative;
 }
 
